@@ -1,0 +1,36 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+}
+.meme-form{
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #0b030e;
+}
+button{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.1rem;
+    border: 1px solid #A626D3;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.meme-img{
+    max-width: 100%;
+}
+.meme-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 2rem;
+}
+.meme-container>img{
+    border-radius: 10px;
+}
